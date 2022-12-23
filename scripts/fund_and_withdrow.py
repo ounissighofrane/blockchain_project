@@ -17,3 +17,7 @@ def withdrow():
     account = get_account()
     fund_me.withdrow({"from": account})
 
+
+def main():
+    fund()
+    withdrow()
